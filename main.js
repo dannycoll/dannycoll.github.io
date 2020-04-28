@@ -2,5 +2,8 @@ $(document).ready(function(){
     $('.header').height($(window).height());
   })
 
-  $('.add-footer').load('footer.html');
+$(function(){
+  $('#add-footer').load('assets/footer.html');
+  $('.add-nav').load('assets/header-nav.html');
+});
 
