@@ -1,9 +1,6 @@
 $(document).ready(function(){
-    $('.header').height($(window).height());
-  })
-
-$(function(){
-  $('#add-footer').load('assets/footer.html');
-  $('.add-nav').load('assets/header-nav.html');
+  $('.add-nav').load('header-nav.html');
+  $('.add-footer').load('footer.html');
+  $('.header').height($(window).height());
 });
 
